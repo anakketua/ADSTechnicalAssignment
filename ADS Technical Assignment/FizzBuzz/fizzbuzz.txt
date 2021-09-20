@@ -1,0 +1,22 @@
+Start
+
+SET N = scan
+SET X = 1
+
+WHILE (X Less than Equals to N) 
+
+IF X % (3*5) == 0 THEN
+Display "FizzBuzz"
+
+IF X % 3 == 0 THEN
+Display "Fizz"
+
+IF X % 5 == 0 THEN
+Display "Buzz"
+
+ELSE
+Display X
+
+X++
+
+END

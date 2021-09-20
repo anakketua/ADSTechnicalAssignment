@@ -1,0 +1,22 @@
+Start
+
+SET nilaiAwal = Scan   
+SET nilaiAkhir
+SET Lulus = False
+SET X = 2
+SET Z = nilaiAwal % 5   
+
+IF Z MORE THAN X
+nilaiAkhir == nilaiAwal + (5-Z)
+
+ELSE IF (Z LESS THAN EQUALS TO X) OR (nilaiAwal LESS THAN 70)
+nilaiAkhir == nilaiAwal
+
+IF (nilaiAkhir MORE THAN EQUALS TO 70)
+Lulus = True
+
+DISPLAY nilaiAwal
+DISPLAY nilaiAkhir
+Display "Lulus: " + Lulus 
+
+END

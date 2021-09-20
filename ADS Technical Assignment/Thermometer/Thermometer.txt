@@ -1,0 +1,16 @@
+Start 
+	
+SET Tipe = scan
+SET N = scan
+SET Celsius
+
+if tipe == fahrenheit then
+	celcius <- (N - 32) * (5/9)
+	else if tipe  == kelvin then
+	celcius <- (N - 273.15)
+	else 
+	celcius <- N
+
+	Show Celcius
+
+End
