@@ -1,0 +1,22 @@
+Start 
+
+SET STRING X = scan 
+SET N = Length of X 5
+SET Z = True
+SET I = 0
+
+If N = 1
+Z = True
+
+While (I in range of N//2) {
+
+IF char i of X NOT EQUALS TO char N-I-1 of X
+Z = False
+
+I++
+
+}
+
+Display Z
+
+END
